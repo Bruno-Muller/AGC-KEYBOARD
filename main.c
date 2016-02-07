@@ -5,14 +5,14 @@
  * Created on 28 novembre 2015, 19:38
  */
 
-#include <xc.h>
-
 #include "bits.h"
 #include "channel.h"
 #include "conf.h"
 #include "i2c.h"
 #include "io.h"
 #include "keyboard.h"
+
+#include <xc.h>
 
 void init() {
     // CLOCK 16 MHz

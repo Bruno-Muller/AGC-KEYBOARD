@@ -5,10 +5,9 @@
  * Created on 6 février 2016, 21:32
  */
 
+#include "io.h"
 
 #include <xc.h>
-
-#include "io.h"
 
 void io_init() {
     // Disable analog pins
